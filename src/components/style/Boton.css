@@ -1,0 +1,45 @@
+.boton-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .boton {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    color: #ffffff;
+  }
+  
+  .boton:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Estilos específicos para cada botón */
+  .boton-oscuro {
+    background-color: #007bff;
+  }
+  
+  .boton-oscuro:hover {
+    background-color: #0056b3;
+  }
+  
+  .boton-clasico {
+    background-color: #28a745;
+  }
+  
+  .boton-clasico:hover {
+    background-color: #1e7e34;
+  }
+  
+  .boton-moderno {
+    background-color: #17a2b8;
+  }
+  
+  .boton-moderno:hover {
+    background-color: #117a8b;
+  }
+  
